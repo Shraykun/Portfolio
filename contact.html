@@ -8,9 +8,18 @@
     <body>
         <h1>Contact Me</h1>
         <ul>
-            <li><a>Email</a></li>
-            <li><a>Github</a></li>
-            <li><a>Linkedin</a></li>
+            <li><a href="mailto:shreyash6@hotmail.co.uk">Email</a></li>
+            <li><a href="https://github.com/ShreyashSanjay">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/shreyash-sanjay-34000a189/">Linkedin</a></li>
         </ul>
+        <form action="mailto:shreyash6@hotmail.co.uk" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="message">Your Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+            <input type="submit" name="submit" id="submit">
+        </form>
     </body>
 </html>
