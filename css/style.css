@@ -1,0 +1,29 @@
+/***************************TAG SELECTORS***************************/
+body {
+    background-color: #f7ede2;
+}
+hr {
+    border-style: dotted none none none;
+    border-color: #f5cac3;
+    border-width: 8px;
+    height: 0px;
+    width: 5%;
+}
+
+h1 {
+    color: #f28482;
+}
+h3 {
+    color: #84a59d;
+}
+
+/***************************CLASS SELECTORS***************************/
+.profile{
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile:hover{
+    border-radius: 0%;
+}
