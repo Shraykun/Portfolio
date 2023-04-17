@@ -1,6 +1,10 @@
 /***************************TAG SELECTORS***************************/
 body {
     background-color: #f7ede2;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
 }
 hr {
     border-style: dotted none none none;
@@ -15,6 +19,10 @@ h1 {
 }
 h3 {
     color: #84a59d;
+}
+ul{
+    list-style-type: none;
+    padding: 0%;
 }
 
 /***************************CLASS SELECTORS***************************/
